@@ -14,7 +14,7 @@ var dataType = (function(){
 
     var	toStr = Object.prototype.toString; // helper
 
-    // this method returns string with one of those types:
+    // this method returns string with one of next desription:
     // "Array", "Object", "Date", "Function", "String", "Boolean",
     // "Number", "Null" or "Undefined".
     getType = function(arg) {
