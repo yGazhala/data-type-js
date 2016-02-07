@@ -1,5 +1,5 @@
 # data-type-js
-<p><strong>Utility module for determining data type in JavaScript<strong><p>.
+<p><strong>Utility module for determining data type in JavaScript<strong><p>
 <p>Version 1.0.0<p>
 
 <h3>Motivation</h3>
@@ -10,8 +10,9 @@ This module helps to resolve the problem.</p>
 <h3>How to use:</h3>
 <p>1. Import dataType.js to your code.</p>
 <p>2. Just use one of module methods, e.g.:</p>
-<p><code>dataType.getType(new Date()); // "Date"</code></p>
-<p><code>dataType.getType(null); // "Null"</code></p>
+<code>dataType.getType(new Date()); // "Date"</code>
+<br>
+<code>dataType.getType(null); // "Null"</code>
 
 <h3>Interface description:</h3>
 
@@ -29,6 +30,6 @@ This module helps to resolve the problem.</p>
 <p><code>dataType.isObj(arg)</code> -  checks if arg is object and returns true or false.</p>
 <p><code>dataType.isDate(arg)</code> - checks if arg is date and returns true or false.</p>
 
-<p>Created due to ES 5.</p> 
-<p>In current version Symbol data type has not supported yet.</p>
-<p>Browser support: IE 8+</p>
+Created due to ES 5. In current version Symbol data type has not supported yet.
+
+Browser support: IE 8+
