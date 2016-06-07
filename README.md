@@ -20,21 +20,23 @@ dataType.getType(null); // returns "Null"
 ##Interface description
 
 ```javascript
-dataType.getType(arg); // returns one of next strings: "Array", "Object", "Date", "Function", "String", "Boolean", "Number", "Null" or "Undefined".
+dataType.getType(arg);  // returns one of next strings: "Array", "Object", "Date", "Function", 
+                        // "String", "Boolean", "Number", "Null" or "Undefined".
 
-dataType.isNum(arg); // returns true or false. Helps to understand if an argument is a number. 
-                     // Checks if a number is not an empty string, boolean true/false expression, NaN or Infinity
+dataType.isNum(arg);    // returns true or false. Helps to understand if an argument is a number. 
+                        // Checks if a number is not an empty string, boolean true/false expression, 
+                        // NaN or Infinity
 
-dataType.isUndef(arg); // - checks if an argument is undefined and returns true or false. 
+dataType.isUndef(arg);  // - checks if an argument is undefined and returns true or false. 
 
-dataType.isNull(arg); // - checks if an argument is null and returns true or false.
+dataType.isNull(arg);   // - checks if an argument is null and returns true or false.
 
-dataType.isBool(arg); // - checks if an argument is a boolean and returns true or false.
-dataType.isStr(arg); // - checks if an argument is a string and returns true or false.
-dataType.isFunc(arg); // - checks if an argument is a function and returns true or false.
-dataType.isArr(arg); // - checks if an argument is an array and returns true or false.
-dataType.isObj(arg); // -  checks if an argument is an object and returns true or false.
-dataType.isDate(arg); // - checks if an argument is date and returns true or false.
+dataType.isBool(arg);   // - checks if an argument is a boolean and returns true or false.
+dataType.isStr(arg);    // - checks if an argument is a string and returns true or false.
+dataType.isFunc(arg);   // - checks if an argument is a function and returns true or false.
+dataType.isArr(arg);    // - checks if an argument is an array and returns true or false.
+dataType.isObj(arg);    // -  checks if an argument is an object and returns true or false.
+dataType.isDate(arg);   // - checks if an argument is date and returns true or false.
 ```
 
 Created due to ES 5.
